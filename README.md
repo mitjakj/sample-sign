@@ -1,3 +1,5 @@
+copy sample.secrets.json to secrets.json and leave dummy privatekey as it is.
+
 start localnet:
 `docker run -it -p8545:8545 -p8546:8546 ghcr.io/oasisprotocol/sapphire-localnet`
 
