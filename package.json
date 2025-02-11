@@ -1,0 +1,48 @@
+{
+  "name": "oasis-contracts",
+  "version": "0.0.1",
+  "description": "Smart contract for Oasis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "build": "npx hardhat compile",
+    "flatten": "npx hardhat flatten",
+    "coverage": "npx hardhat coverage"
+  },
+  "author": "Mitja Kjuder",
+  "license": "ISC",
+  "devDependencies": {
+    "@noble/curves": "^1.4.0",
+    "@nomicfoundation/edr-linux-x64-gnu": "^0.3.5",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@polkadot/api": "15.4.1",
+    "@polkadot/util-crypto": "^13.3.1",
+    "@polkadot/signer-cli": "^0.63.1",
+    "@substrate/txwrapper-polkadot": "^7.5.3",
+    "@types/bn.js": "^5.1.1",
+    "@types/elliptic": "^6.4.14",
+    "@types/pbkdf2": "^3.1.0",
+    "base64url": "^3.0.1",
+    "bn.js": "^5.2.1",
+    "chai": "^4.3.4",
+    "elliptic": "^6.5.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.0",
+    "hardhat-abi-exporter": "^2.3.1",
+    "hardhat-contract-sizer": "^2.1.1",
+    "micro-sr25519": "^0.1.0",
+    "pbkdf2": "^3.1.2",
+    "solidity-coverage": "^0.8.4"
+  },
+  "dependencies": {
+    "@oasisprotocol/sapphire-contracts": "^0.2.4",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "asn1js": "^3.0.5",
+    "browser-env": "^3.3.0",
+    "cbor-redux": "^1.0.0"
+  }
+}
