@@ -1,7 +1,7 @@
 {
-  "name": "oasis-contracts",
+  "name": "sample-contracts",
   "version": "0.0.1",
-  "description": "Smart contract for Oasis.",
+  "description": "Smart contract for sample.",
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
