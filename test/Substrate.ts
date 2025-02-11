@@ -29,7 +29,7 @@ describe("Substrate", function() {
 
   it("Send 12345 to BOB", async function() {
 
-    const SIGN_ONCHAIN = true;
+    const SIGN_ONCHAIN = false;
   
     const {
       metadataRpc,
